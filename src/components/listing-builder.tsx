@@ -17,6 +17,10 @@ export function ListingBuilder() {
     console.log(JSON.stringify(data, null, 2))
   }
 
+
+// NEXT_PUBLIC_IMGBB_API_URL=https://api.imgbb.com/1/upload
+// NEXT_PUBLIC_IMGBB_API_KEY=8d3f361ba3224f58aab94e25e3db1276
+
   return (
     <div className="mx-auto grid w-full max-w-5xl gap-10 px-6 py-10 lg:grid-cols-[minmax(0,1fr)_380px]">
       {/* Form */}
